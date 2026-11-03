@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 # Archive of the retired agrilife.org/casolalab site; kept locally, never published.
 old_agrilife_site/
+# Screenshots saved here by mistake; never publish.
+Screenshot*.png
+Screenshot*.jpg
