@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /classic.html
+
+Sitemap: https://casolalab.github.io/sitemap.xml

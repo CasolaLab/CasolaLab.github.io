@@ -6,3 +6,5 @@
 IMG_5391_headshot.jpg
 __pycache__/
 *.pyc
+# Archive of the retired agrilife.org/casolalab site; kept locally, never published.
+old_agrilife_site/
