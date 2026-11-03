@@ -1,0 +1,8 @@
+.DS_Store
+.claude/
+# Source photos: only the web-sized copies in assets/img/ are published.
+*.HEIC
+*.heic
+IMG_5391_headshot.jpg
+__pycache__/
+*.pyc

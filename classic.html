@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casola Lab</title>
+<meta name="description" content="The Casola Lab at Texas A&amp;M University studies the origin and evolution of new genes, noncanonical ORFs and transposable elements.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">Casola <span>Lab</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <ul class="nav" id="nav">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="join.html">Join us</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+        <div>
+          <p class="eyebrow">Ecology and Conservation Biology · Texas A&amp;M University</p>
+          <h1>How new genes are born, and what they do</h1>
+          <p class="lede">New genes evolve frequently and play a major role in phenotypic variation, speciation and the emergence of novel traits. In the Casola lab, we study how new genes originate, evolve and gain their specific functions. Our work focuses on de novo genes, which evolve from ancestrally noncoding DNA regions, and genes derived from transposable elements. We combine comparative genomics, machine learning and collaborative experimental work to determine how de novo genes, noncanonical open reading frames and transposable elements contribute to evolutionary novelty in plants and animals.</p>
+        </div>
+        <img class="hero-logo" src="assets/img/lab_logo.jpg" width="456" height="600" alt="Spontaneous GENEeration Lab logo">
+      </div>
+      <figure class="hero-fig">
+        <figcaption>A model of de novo gene formation</figcaption>
+        <img src="assets/img/de_novo_gene_birth.gif" width="900" height="400"
+             alt="Animation of de novo gene birth. A noncoding region between two genes is transcribed after an enabler mutation, gains a start codon and loses a stop codon to open a reading frame, and is translated into a novel protein, while the orthologous region in a sister species stays noncoding.">
+      </figure>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2>Research</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>De novo gene birth</h3>
+        <p>How often protein-coding genes emerge from noncoding DNA, and which genomic features favor their birth, with a focus on the Brassicaceae.</p>
+        <a class="more" href="research.html#de-novo">More →</a>
+      </article>
+      <article class="card">
+        <h3>Noncanonical ORFs and microproteins</h3>
+        <p>The origin and fate of translated sequences outside annotated genes, from reference catalogs to protein degradation signals.</p>
+        <a class="more" href="research.html#orfs">More →</a>
+      </article>
+      <article class="card">
+        <h3>Transposable elements</h3>
+        <p>Domestication of transposase genes into host functions and horizontal transfer of transposable elements across kingdoms.</p>
+        <a class="more" href="research.html#tes">More →</a>
+      </article>
+      <article class="card">
+        <h3>Gene family and genome evolution</h3>
+        <p>Gene turnover in conifers, drought tolerance genomics and convergent molecular evolution.</p>
+        <a class="more" href="research.html#genomes">More →</a>
+      </article>
+    </div>
+
+    <h2>Recent publications</h2>
+    <ul class="pubs" id="recent-pubs" data-count="5"></ul>
+    <p><a href="publications.html">All publications →</a></p>
+
+    <div class="callout">
+      <h2>Join the lab</h2>
+      <p>We welcome inquiries from prospective graduate students, postdocs and undergraduates interested in evolutionary genomics and bioinformatics.</p>
+      <a href="join.html">Opportunities →</a>
+    </div>
+    <div class="affil" aria-label="Affiliations">
+      <a href="https://eccb.tamu.edu/"><img src="assets/img/logos/eccb.png" alt="Texas A&amp;M University, Department of Ecology &amp; Conservation Biology" height="60"></a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Casola Lab</strong><br>Department of Ecology and Conservation Biology<br>Texas A&amp;M University</p>
+    <p>534 John Kimbrough Blvd, TAMU 2258<br>College Station, TX 77843-2258<br><a href="mailto:ccasola@tamu.edu">ccasola@tamu.edu</a></p>
+    <p>&copy; <span data-year></span> Casola Lab</p>
+  </div>
+</footer>
+<script src="data/publications.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
